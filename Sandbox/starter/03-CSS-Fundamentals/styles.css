@@ -1,4 +1,3 @@
-/*  ********************* Styling Text ********************* */
 h1 {
     font-size: 26px;
     font-family: sans-serif;
@@ -6,9 +5,8 @@ h1 {
     font-style: italic;
 }
 
-
 h2 {
-    font-size: 40px;
+    font-size : 40px;
     font-family: sans-serif;
 }
 
@@ -18,31 +16,20 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 30px;
     font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
 
 p {
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size : 22px;
+    font-family : sans-serif;
     line-height: 1.5;
 }
 
+/*we do not style the ul or ol Element */
 li {
    font-family: sans-serif;
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
