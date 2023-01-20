@@ -76,9 +76,23 @@ aside {
     border-bottom: 5px solid #1098ad;
 }
 
+/* Pseudo-classes */
 
+ul li:first-child {
+   border: 3px solid red;
+}
 
+ul li:last-child {
+    border: 3px solid red;
+}
 
+li:nth-child(3) {
+   background-color: red;
+}
+
+article p:first-child {
+    border: 3px solid rebeccapurple;
+}
 
 
 
