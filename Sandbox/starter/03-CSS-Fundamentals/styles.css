@@ -1,6 +1,6 @@
 /* ************** Working with colors ************** */
 body {
-/*background-color: #d6336c;    */
+    /*background-color: #d6336c;    */
 }
 
 h1, h2, h3, h4, p, li {
@@ -79,7 +79,7 @@ aside {
 /* Pseudo-classes */
 
 ul li:first-child {
-   border: 3px solid red;
+    border: 3px solid red;
 }
 
 ul li:last-child {
@@ -87,14 +87,34 @@ ul li:last-child {
 }
 
 li:nth-child(3) {
-   background-color: red;
+    background-color: red;
 }
 
+/*Misconception : this won't work*/
 article p:first-child {
     border: 3px solid rebeccapurple;
 }
 
+/* Styling  links */
 
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1098ad;
+}
+
+a:hover {
+    color: orangered;
+    font-weight: bold;
+    text-decoration: underline orangered;
+}
+
+a:active {
+    background-color: black;
+}
 
 
 
