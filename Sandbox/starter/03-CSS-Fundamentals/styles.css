@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*Page Sections */
+
 body {
     font-family: sans-serif;
     color: #444;
@@ -10,19 +12,22 @@ body {
 }
 
 .container {
-    width : 90%;
-    margin : 0 auto;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .main-header {
     background-color: #f7f7f7;
     padding: 20px 40px;
     margin-bottom: 60px;
-    height: 80px;
 }
 
 .post-header {
     margin-bottom: 40px;
+}
+
+nav {
+    font-size: 18px;
 }
 
 aside {
@@ -33,6 +38,8 @@ aside {
     padding: 50px 0;
     width: 500px;
 }
+
+/*Smaller Element */
 
 h1, h2, h3 {
     color: #1098ad;
@@ -72,6 +79,7 @@ p {
 ul, ol {
     margin-left: 50px;
 }
+
 li {
     font-size: 20px;
     margin-bottom: 10px;
@@ -146,9 +154,20 @@ a:active {
     background-color: black;
 }
 
+nav a:link {
+    margin-right: 30px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+nav a:link:last-child {
+    margin-right: 0;
+}
+
+
 .post-image {
-   width : 100%; 
-   height : auto;
+    width: 100%;
+    height: auto;
 }
 
 
