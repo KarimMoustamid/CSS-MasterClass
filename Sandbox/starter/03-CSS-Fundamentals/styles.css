@@ -1,11 +1,37 @@
-/* ************** Working with colors ************** */
-body {
-    /*background-color: #d6336c;    */
+* {
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2, h3, h4, p, li {
+body {
     font-family: sans-serif;
-    color: #444
+    color: #444;
+    border-top: 10px solid #1098ad;
+}
+
+.container {
+    width : 90%;
+    margin : 0 auto;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+    height: 80px;
+}
+
+.post-header {
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    margin: 0;
+    padding: 50px 0;
+    width: 500px;
 }
 
 h1, h2, h3 {
@@ -20,10 +46,13 @@ h1 {
 
 h2 {
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 h3 {
     font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 h4 {
@@ -35,11 +64,21 @@ h4 {
 p {
     font-size: 22px;
     line-height: 1.5;
+    marign-bottom: 15px;
 }
 
 /*we do not style the ul or ol Element */
+
+ul, ol {
+    margin-left: 50px;
+}
 li {
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+li:last-child {
+    margin-bottom: 0;
 }
 
 /* Descendant Selector */
@@ -66,15 +105,6 @@ li {
     list-style: none;
 }
 
-.main-header {
-    background-color: #f7f7f7;
-}
-
-aside {
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
-}
 
 /* Pseudo-classes */
 
@@ -114,6 +144,11 @@ a:hover {
 
 a:active {
     background-color: black;
+}
+
+.post-image {
+   width : 100%; 
+   height : auto;
 }
 
 
