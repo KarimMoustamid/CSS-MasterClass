@@ -24,12 +24,15 @@
       }
       .el--6 {
         background-color: steelblue;
+        align-self: stretch; /* On Cross Axes */
       }
       .el--7 {
         background-color: yellow;
       }
       .el--8 {
         background-color: crimson;
+        align-self: center; /* On Cross Axes */
+        order: -1;
       }
 
       .container {
@@ -40,6 +43,11 @@
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+        justify-content: flex-start; /* Main Axes */
+        align-items: center; /* Cross Axes */
+        flex-wrap: wrap;
+        gap: 10px 15px;
       }
     </style>
   </head>
