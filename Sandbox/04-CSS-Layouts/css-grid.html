@@ -56,6 +56,9 @@
             /*gap: 20px;*/
             column-gap: 30px;
             row-gap: 40px;
+
+
+            display: none;
         }
 
         .el--8 {
@@ -70,7 +73,6 @@
         }
 
         .container--2 {
-            display: none;
             /* STARTER */
             font-family: sans-serif;
             background-color: black;
@@ -81,6 +83,23 @@
             height: 600px;
 
             /* CSS GRID */
+            display: grid;
+            grid-template-columns: 125px 200px 125px;
+            grid-template-rows: 250px 100px;
+
+            /*Aligning Tracks inside container  : Distribute empty space */
+            justify-content: center;
+            align-content: center;
+            gap: 50px;
+
+            /*Aligning Items INSIDE cells*/
+            justify-items: center;
+            align-items: center;
+        }
+
+        .el--3 {
+            align-self: end;
+            justify-self: end;
         }
     </style>
 </head>
